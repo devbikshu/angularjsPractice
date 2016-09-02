@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="testApp">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/custom/css/style.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+
+<body>
+    <div class="container" ng-controller="mainCtrl">
+        <div ng-include="navBarTemplate"></div>
+        <div ng-include="homePageTemplate"></div>
+    </div>
+    <!-- apps js -->
+    <script src="app/app.js"></script>
+    <script src="app/mainCtrl.js"></script>
+    <!-- directive js -->
+    <script src="directives/directive.js"></script>
+    <script src="directives/directiveCtrl.js"></script>
+    <!-- products js -->
+    <script src="products/product.js"></script>
+    <script src="products/productSvc.js"></script>
+    <!-- promises js -->
+    <script src="promises/promise.js"></script>
+    <script src="promises/promiseCtrl.js"></script>
+    <!-- cart js -->
+    <script src="cart/cart.js"></script>
+    <script src="cart/cartCtrl.js"></script>
+    <!-- data js -->
+    <script src="data/products.json"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "angularpt",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bikshu",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
+}
